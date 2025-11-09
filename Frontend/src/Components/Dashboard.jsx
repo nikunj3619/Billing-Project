@@ -25,7 +25,7 @@ function Dashboard() {
       <NavigationBar></NavigationBar>
       <div className="h-screen w-px bg-gray-400"></div>
       <div className='flex flex-col w-full'>
-        <PathComponent></PathComponent>
+        <PathComponent PageName="Dashboard Page"></PathComponent>
         <Content summaryData1={summaryData1} summaryData2={summaryData2} summaryData3={summaryData3} summaryData4={summaryData4}></Content>
       </div>
 
